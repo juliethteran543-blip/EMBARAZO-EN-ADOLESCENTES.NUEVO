@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+/* ESTILO GENERAL DE LAS 8 BARRAS VERTICALES */
+.barra {
+    width: 12.5%; /* Hace que las 8 barras quepan exactas una al lado de la otra */
+    padding: 15px;
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CORREGIDO: Títulos de las barras verticales */
+.barra h2 {
+    margin-bottom: 15px;
+    font-size: 20px; /* ¡Corregido el error de escritura aquí! */
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.barra p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/* COLORES DE CADA UNA DE LAS BARRAS PASTEL */
+.uno {
+    background: hsl(271, 79%, 63%);
+}
+
+.dos {
+    background: hsl(184, 62%, 47%);
+}
+
+.tres {
+    background: hsl(125, 74%, 51%);
+}
+
+.cuatro {
+    background: hsl(305, 62%, 53%);
+}
+
+.cinco {
+    background: #948845;
+}
+
+.seis {
+    background: hsl(286, 77%, 39%);
+}
+
+/* COLUMNA SIETE (PANDA): Cambiada a un color rosita/durazno suave de niña */
+.siete {
+    background: hsl(182, 62%, 31%); 
+    border-left: 2px dashed #ff69b4; /* Detalles de puntitos rosa */
+}
+
+/* COLUMNA OCHO (DELFÍN): Cambiada a un rosado pastel hermoso */
+.ocho {
+    background: lab(34.68% 59.13 -11.91 / 0.589);
+    border-left: 2px dashed hsla(147, 58%, 44%, 0.322); /* Detalles de puntitos rosa */
+}
+
+/* ICONOS DE ANIMALES EN LAS BARRAS */
+.oso-panda {
+    text-decoration: none;
+    font-size: 70px;
+    display: block;
+    transition: 0.3s;
+    margin: 15px 0;
+}
+
+.oso-panda:hover {
+    transform: scale(1.2);
+}
+
+.delfin {
+    text-decoration: none;
+    font-size: 70px;
+    display: block;
+    transition: 0.3s;
+    margin: 15px 0;
+}
+
+.delfin:hover {
+    transform: scale(1.2);
+}
